@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+</head>
+
+
+<body>
+    <div class="topnav">
+        <a href="#Welcome"> Welcome</a>
+        <a class="active"> Gallery</a>
+        <a href="#Tips & Tricks">Tips</a>
+        <a Contact onclick="myFunction()">Contact</a>
+
+        <p id="demo">
+
+            <script>
+                function myFunction() {
+                    var txt;
+                    var email = prompt("Please enter your email address:", "HarryPotter@email.com");
+                    if (email == null || email == "") {
+                    } else {
+                        var message = prompt("Please enter your message:", "...");
+                    }
+                    document.getElementById("demo").innerHTML = txt;
+                }
+            </script>
+        </p>
+
+    </div>
+    <br />
+
+
+</body>
+</html>
