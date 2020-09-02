@@ -215,7 +215,7 @@ h3 {
 /*Contact Us*/
 
 .contact-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("nast.JPG");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("nast.jpg");
     max-width: 2000px;
     width: 100%;
     margin-left: auto;
